@@ -1,4 +1,4 @@
-
+![Portfolio Projesi](portfolio.gif)
 
 # Getting Started with Create React App
 
@@ -76,5 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Personal-website
 # Personal_Website
 
-##gif
-![Portfolio](portfolio.gif)
+
