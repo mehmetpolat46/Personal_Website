@@ -1,0 +1,187 @@
+#contactPage{
+    
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-top: 20px;
+}
+.contactPageTitle {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    color: #915eff ;
+}
+.clientDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+.clientImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+
+}
+.clientImg{
+    object-fit: cover;
+    width: 15%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+    
+}
+#clients{
+    padding: 3rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    max-width: 80rem;
+    text-align: center;
+   
+    
+    
+}
+
+
+
+.clienetDescSpan{
+    color: #915eff;
+    
+
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 80rem;
+
+}
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: #414971;
+}
+.submitBtn{
+    background:#915eff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.50rem 3rem;
+    margin: 2rem;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.submitBtn:hover{
+    background: #532f9f;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+    transform: scale(1); 
+    transition: transform 0.3s ease; 
+    
+}
+.link:hover{
+    transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 720px) {
+    .contactPageTitle {
+       
+        margin-top: 3rem; 
+        margin-bottom: 2rem; 
+    }
+
+    .clientDesc p {
+        font-size: 3vw;
+    }
+
+    .clientImgs {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .clientImg {
+        width: 100px;
+        height: 100px; 
+        min-width: auto; 
+        margin: 0.5rem auto; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .contactPageTitle {
+        font-size: 5vw; 
+        margin-top: 2rem; 
+        margin-bottom: 0.5rem; 
+    }
+
+    .clientDesc p {
+        font-size: 3vw; 
+    }
+
+    .clientImg {
+        width: 100%; 
+        align-items: center;
+        min-width: auto; 
+        margin: 0.25rem auto;
+    }
+
+    .name, .email, .msg {
+        font-size: small; 
+        max-width: 100%; 
+    }
+
+    .submitBtn {
+        font-size: 16px; 
+        margin: 1rem; 
+    }
+
+    .links {
+        justify-content: center; 
+    }
+
+    .link {
+        height: 2.5rem; 
+        width: 2.5rem; 
+        margin: 0.5rem; 
+    }
+}
+

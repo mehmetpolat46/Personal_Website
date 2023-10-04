@@ -1,0 +1,125 @@
+.navbar{
+    background: #0a0e24;
+    height: 5.2rem;
+    width: 100vw;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0; 
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 100px;
+    
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 15px;
+    object-fit: cover;
+    height: 7rem;
+    width: 10rem;
+
+}
+.logo:hover {
+    cursor: pointer;
+    transition: transform 1.5s; 
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3);
+    transform: scale(1.2);
+}
+
+
+
+
+
+.desktopMenuListItem{
+    margin: 1.7rem;
+    cursor: pointer;
+    
+    
+    
+    
+    
+
+}
+.desktopMenuBtn{
+    background: #915eff;
+    color: rgb(251, 249, 249);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.desktopMenuBtn:hover{
+    background: #532f9f;
+    
+
+
+}
+
+
+.active {
+    color:#915eff;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #915eff;
+}
+.mobMenu{
+    display:none ;
+    object-fit: cover;
+    height: 1.8rem;
+    width: 2.5rem;
+
+
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+   
+    background: rgb(9, 36, 61);
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.ListItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background:#0a0e24;
+
+}
+
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display: flex;
+        cursor: pointer;
+    }
+    .desktopMenu{
+        display: none;
+        
+    }
+
+        .desktopMenuBtn{
+            display: none;
+            
+        }
+    }
+
+  
+
+

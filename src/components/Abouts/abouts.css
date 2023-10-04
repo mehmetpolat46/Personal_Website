@@ -1,0 +1,125 @@
+#abouts{
+    overflow:hidden;
+    width: 100vw;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 90px; 
+   
+
+}
+.aboutTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    color: #915eff ;
+  
+
+}
+.aboutDesc{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 80rem;
+    padding: 0 2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+
+
+}
+.aboutBars{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80rem;
+    text-align: left;
+}
+.aboutBar{
+    max-width:80%;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgba(127, 88, 165, 0.485);
+    transition: transform 2s;
+  
+}
+
+
+.about-p{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(243, 243, 248);
+    
+}
+
+
+.aboutBar:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(86, 73, 233, 0.8);
+}
+
+
+.aboutBarImg{
+    object-fit: cover;
+    
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+
+}
+.aboutBarText{
+    font-size: 0.9rem;
+    font-weight: 200;
+
+
+}
+.aboutBarText h2{
+    color: #915eff ;
+}
+
+@media screen and (max-width :720px) {
+    .aboutBarText>h2 {
+        font-size: 3vw;
+        margin-bottom: 2rem;
+    }
+    .aboutBars{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+@media screen and (max-width :480px) {
+    .aboutBarText>p {
+        font-size: 3vw;
+    }
+    .aboutBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+
+    }
+  
+    .aboutBars{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
