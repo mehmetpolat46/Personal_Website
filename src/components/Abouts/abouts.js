@@ -36,7 +36,7 @@ const Abouts = () => {
             <h2>UI/UX Design</h2>
             <p>
               "Designing with Figma is a magical way for me to turn not only my
-              thoughts but also <br /> my dreams into reality."
+              thoughts but also  my dreams into reality."
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Abouts = () => {
             <h2>Website Design</h2>
             <p>
               “Web design for me is a platform for art and collaboration while
-              bringing the freedom of the digital <br /> world and limitless
+              bringing the freedom of the digital  world and limitless
               creativity in the palm of your hand.”
             </p>
           </div>
@@ -60,7 +60,7 @@ const Abouts = () => {
             <p>
               "Mobile design is like a work of art that brings the digital world
               into our pockets,
-              <br /> and I see this art as a journey that comes to life with
+               and I see this art as a journey that comes to life with
               every touch."
             </p>
           </div>
